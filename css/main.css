@@ -1,0 +1,132 @@
+
+/* ==========================================================================
+   Author's custom styles
+   ========================================================================== */
+
+::-webkit-scrollbar {
+  width: 0px;
+}
+
+body {
+    background: #d1c4e9;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+hr {
+    display: block;
+    height: 2px;
+    border: 0;
+    border-top: 2px solid #ccc;
+    margin: 1em auto;
+    padding: 0; 
+}
+
+.full-screen {
+    width: 100vw;
+    height: 90vh;
+}
+
+.highlights {
+    display: none;
+    margin-top: 20vh;
+    position: fixed;
+    left: 20px;
+}
+.highlights table tr td:first-child {
+    font-size: 3.5em;
+    text-align: center;
+    vertical-align: bottom;
+}
+.highlights table tr td {
+    padding-left: 10px;
+    color: #b39ddb;
+    font-size: 5em;
+    font-weight: 900;
+    line-height: 0.9em;
+}
+
+.bio-box {
+    position: relative;
+    padding-top: 4%;
+    width: 85%;
+    min-height: 93vh;
+    font-family: 'PT Sans', sans-serif;
+    box-shadow: grey -14px 18px 20px 0px;
+}
+
+@media (min-width: 768px) {
+    .img-lg-device {
+        width: 15% !important;
+    }
+
+    .shift-right{
+        position: absolute !important;
+        right: -5% !important;
+        width: 63% !important;
+    }
+
+}
+
+.profile {
+    width: 25%;
+    border-radius: 50%;
+}
+.name-text {
+    font-weight: 500;
+    font-size: 2em;
+}
+.name-caption-text {
+    font-weight: 300;
+    font-size: 1.2em;
+}
+
+.description {
+    width: 80%;
+    margin: 4% auto;
+}
+
+.social-icon {
+    vertical-align: middle;
+    color:#b49cde;
+    margin: 0 0.7%;
+    font-size: 2em;
+    -webkit-transition: font-size 0.2s;
+    -moz-transition: font-size 0.2s;
+    transition: font-size 0.2s;
+}
+
+.social-icon:hover {
+    font-size: 3em;
+    -webkit-transition: font-size 0.1s;
+    -moz-transition: font-size 0.1s;
+    transition: font-size 0.1s;
+}
+
+.social-icon:nth-child(1):hover {
+    color:#333 !important;
+}
+.social-icon:nth-child(2):hover {
+    color:#0077B5 !important;
+}
+.social-icon:nth-child(3):hover {
+    color: #1da1f2 !important;
+}
+.social-icon:nth-child(4):hover {
+    color: #3b5998 !important;
+}
+.social-icon:nth-child(5):hover {
+    color: #dd4b39 !important;
+}
+
+.footer {
+    color: #b49cde;
+    position: fixed;
+    bottom:0;
+    width:100%;
+    max-height: 10vh;
+}
+
+.footer p { 
+    color: #7e57c2;
+}
